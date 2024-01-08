@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    
+    body, main {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    
+    
+    #title {
+        background-color: rgb(77, 83, 81);
+        padding: 10px;
+        text-align: center;
+        font-size: 3rem;
+        color: aliceblue;
+    }
+    
+    #tribute-info {
+        text-align: center;
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+    
+    #img-caption, #link {
+        text-align: center;
+        font-size: 1.2em;
+        margin: auto;
+    }
+    
+    
+    #image {
+        display: block;
+        max-width: 100%;
+        margin: auto;
+    
+    }
+    
+    .year {
+        text-align: center;
+        padding: 5px;
+        background-color: beige;
+        margin: 15px;
+    }
+    p {
+        text-align: justify;
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    footer {
+        padding: 2%;
+        margin: 2%;
+    }
+    

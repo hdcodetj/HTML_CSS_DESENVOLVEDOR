@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 700px) {
+    body {
+        font-size: 8px;
+    }
+}
+#navbar {
+    width: 28vw;
+    height: 100vw;
+    background-color: rgb(255, 232, 214);
+}
+p, li{
+    background-color: rgb(210, 233, 227);
+}
+
+a {
+    display: block;
+    padding: 15px;
+    margin: 5px;
+}
+
+main {
+    width: 70vw;
+    height: 100vw;
+    left: 28vw;
+    top: 0px;
+    position: absolute;
+}
+section, p, li {
+    padding: 20px;
+    margin: 5px;
+}
+
+main header, #JS_Documentation {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.16);
+}
+main header::after {
+    content: " 😃";
+}

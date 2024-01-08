@@ -1,0 +1,129 @@
+* {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --header: gray;
+    --subtitle-background: orange;
+    --subtitle-text: white;
+    --links-back: purple;
+    --links-text: white;
+  }
+  
+  @media (max-width: 360px) {
+    /* Estilos a serem aplicados quando a largura da tela for no máximo 600px */
+    p {
+      font-size: 8px;
+    }
+    #header {
+      display: none;
+    }
+  }
+  
+  #header {
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    width: 100%;
+    height: 12%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--header);
+  }
+  
+  #header-img {
+    width: 350px;
+    margin: auto 0;
+  }
+  
+  #nav-bar {
+    margin: auto;
+  }
+  
+  header a {
+    margin: 5px;
+    font-family: calibri;
+    text-transform: uppercase;
+    font-size: 30px
+  }
+  
+  a:hover {
+    background-color: var(--links-back);
+    color: var(--links-text);
+    padding: 25px;  
+  }
+  
+  main {
+    min-width: 100px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: calibri;
+    background-color: var(--subtitle-background);
+    padding: 5px;
+    color: var(--subtitle-text);
+  }
+  
+  p {
+    font-family: Cambria;
+    text-align: justify;
+    padding: 10px 20px;
+  }
+  
+  #pri {
+    margin-top: 90px
+  } 
+  
+  .vidyou {
+    background-color: black;
+    padding: 15px;
+    position: relative;
+    padding-bottom: 50%;
+  }
+  
+  #video {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%
+  }
+  
+  #form, #footer, input  {
+    width: 100%;
+    padding: 20px;
+  }
+  #email {
+    color: red;
+  }
+  
+  #submit {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: cambria; 
+  }
+  
+  #submit:hover {
+    background: var(--links-back);
+    padding: 30px;  
+  }
+  
+  #footer {
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: calibri; 
+    background-color: var(--header);
+    text-align: center;
+  }
+  

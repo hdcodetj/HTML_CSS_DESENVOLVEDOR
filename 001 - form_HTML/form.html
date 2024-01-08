@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>1° FORM</title>
+</head>
+<body>
+    <!-- Eis um comentário -->
+    <header>
+        <h1 id="title">FORMULÁRIO DE PESQUISA</h1>
+        <p id="description">Preencha todos os campos solicitados!</p>
+    </header>
+    <main>
+        <form id="survey-form">
+        <div><label for="name" id="name-label">Nome <input name="name" id="name"  type="text" placeholder="Nome" required></label>      
+        <label for="email" id="email-label">E-mail <input placeholder="Email" id="email" type="email"  required></label>
+        <label for="age" id="number-label">Idade <input id="number" placeholder="Idade" min="16" max="120" type="number"  required ></label></div>
+        <div>VOCÊ GOSTOU DESSE FORMULÁRIO? </div>
+        <div>
+        <input name="recomend" type="radio" value="yes"> Sim 😁 
+        </div>
+        <div>
+            <input name="recomend" type="radio" value="no"> Não 🤮
+        </div>
+        <div>
+            <input name="recomend" type="radio" value="maybe"> Talvez, mas pode melhorar 🤔🚀
+        </div>
+        <div>
+        <label for="describes">QUAL É A MELHOR OPÇÃO QUE LHE DESCREVE: <select id="dropdown" name="describes">
+            <option value="select">Selecione a melhor opção aqui. . .</option>
+            <option value="student">Estudante</option>
+            <option value="work">Trabalhador</option>
+            <option value="work">Autônomo</option>
+        </select></label>
+    </div>
+        <div>
+            O QUE VOCÊ MELHORARIA NESSE FORMULÁRIO?
+            <div><input type="checkbox" value="1"> Mais perguntas </div>
+            <div><input type="checkbox" value="2"> Cor e Emojis</div>
+            <div><input type="checkbox" value="3"> Fonte da Letra</div>
+            <div><input type="checkbox" value="4"> Cor de Fundo</div>
+        </div>
+        <div>ALGUM COMENTÁRIO A MAIS OU ALGUMA SUGESTÃO PARA ESSE FORMULÁRIO? </div>
+        <textarea name="suggestion" id="suggestion" cols="100" rows="10" placeholder=" Escreva aqui . . .  "></textarea>
+        <button id="submit"> ENVIAR!!! </button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
